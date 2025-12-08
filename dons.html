@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dons - Église Grâce Déployée Libreville</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      name="description"
+      content="Soutenir l'Église Grâce Déployée de Libreville par vos dons. Contribuez aux projets d'équipement, groupes de maison, actions sociales et activités de l'église."
+    />
+    <meta
+      name="keywords"
+      content="dons église Gabon, offrandes, soutien financier, projets chrétiens, Grâce Déployée Libreville, Semeurs de Grâce"
+    />
+
+    <!-- Favicons -->
+    <link href="./img/Grace_D-1.jpeg" rel="icon" />
+    <link href="./img/Grace_D-1.jpeg" rel="apple-touch-icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      .project-card {
+        transition: transform 0.3s ease;
+      }
+      .project-card:hover {
+        transform: translateY(-5px);
+      }
+      .giving-method {
+        border-left: 4px solid #0d6efd;
+      }
+      .progress {
+        height: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Chargement...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="index.html" class="navbar-brand p-0">
+          <h1 class="text-primary">
+            <img
+              src="./img/Grace_D-1.jpeg"
+              alt="Logo Grâce Déployée"
+              class="rounded-circle"
+              style="width: 60px; height: 60px"
+            />
+          </h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Accueil</a>
+            <a href="about.html" class="nav-item nav-link">À propos</a>
+            <a href="sermons.html" class="nav-item nav-link">Sermons</a>
+            <a href="evenements.html" class="nav-item nav-link">Événements</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Ministères</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="ministeres.html#parole" class="dropdown-item"
+                  >Ministère de la Parole</a
+                >
+                <a href="ministeres.html#louange" class="dropdown-item"
+                  >Ministère de la Louange</a
+                >
+                <a href="ministeres.html#portiers" class="dropdown-item"
+                  >Portiers de la Grâce</a
+                >
+                <a href="ministeres.html#eclats" class="dropdown-item"
+                  >Éclats de Grâce</a
+                >
+                <a href="ministeres.html#finances" class="dropdown-item"
+                  >Ministère des Finances</a
+                >
+                <a href="ministeres.html#multimedia" class="dropdown-item"
+                  >Multimédia & Communication</a
+                >
+                <a href="ministeres.html#sentinelles" class="dropdown-item"
+                  >Sentinelles de Grâce</a
+                >
+                <a href="ministeres.html#moissonneurs" class="dropdown-item"
+                  >Moissonneurs de Grâce</a
+                >
+              </div>
+            </div>
+            <a href="groupes.html" class="nav-item nav-link">Groupes</a>
+            <a href="blog.html" class="nav-item nav-link">Blog</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a
+              href="dons.html"
+              class="nav-item nav-link active btn btn-primary text-white ms-2"
+              >Donner</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header Start -->
+      <div
+        class="container-fluid bg-primary py-5"
+        style="
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url('./img/dons-bg.jpg') center/cover no-repeat;
+        "
+      >
+        <div class="container text-center py-5" style="max-width: 900px">
+          <h4
+            class="text-white display-4 mb-4 wow fadeInDown"
+            data-wow-delay="0.1s"
+          >
+            Soutenir l'Œuvre de Dieu
+          </h4>
+          <ol
+            class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown"
+            data-wow-delay="0.3s"
+          >
+            <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+            <li class="breadcrumb-item active text-white">Donner</li>
+          </ol>
+        </div>
+      </div>
+      <!-- Header End -->
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Section Verset Biblique -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <div
+              class="p-4 bg-light rounded shadow-sm wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+              <blockquote class="blockquote mb-0">
+                <p class="fs-4 fst-italic">
+                  "Que chacun donne comme il l'a résolu en son cœur, sans
+                  tristesse ni contrainte; car Dieu aime celui qui donne avec
+                  joie."
+                </p>
+                <footer class="blockquote-footer mt-3">
+                  <cite title="Source Title">2 Corinthiens 9:7</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Pourquoi Donner -->
+    <div class="container-fluid bg-light py-5">
+      <div class="container py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <h4 class="text-uppercase text-primary mb-3">
+              Votre Part dans la Mission
+            </h4>
+            <h1 class="display-5 mb-4">
+              Pourquoi soutenir financièrement l'église ?
+            </h1>
+            <p class="mb-4">
+              Chaque don contribue directement à l'accomplissement de la vision
+              de l'Église Grâce Déployée :
+              <strong
+                >transformer les vies par la Grâce du Seigneur
+                Jésus-Christ</strong
+              >.
+            </p>
+            <div class="d-flex align-items-start mb-3">
+              <div class="bg-primary rounded-circle p-2 me-3">
+                <i class="fas fa-hands-helping text-white"></i>
+              </div>
+              <div>
+                <h5 class="mb-2">Soutenir les ministères</h5>
+                <p class="mb-0">
+                  Financer les 8 ministères qui servent la communauté.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mb-3">
+              <div class="bg-primary rounded-circle p-2 me-3">
+                <i class="fas fa-church text-white"></i>
+              </div>
+              <div>
+                <h5 class="mb-2">Développer les infrastructures</h5>
+                <p class="mb-0">
+                  Améliorer le lieu de culte et les équipements.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mb-3">
+              <div class="bg-primary rounded-circle p-2 me-3">
+                <i class="fas fa-users text-white"></i>
+              </div>
+              <div>
+                <h5 class="mb-2">Élargir l'impact</h5>
+                <p class="mb-0">
+                  Créer de nouveaux groupes de maison et activités.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="p-4 p-lg-5 bg-white rounded shadow-sm">
+              <h3 class="mb-4">Semeurs de Grâce</h3>
+              <p class="mb-4">
+                Comme mentionné dans 2 Corinthiens 9:8-11, nos partenaires
+                réguliers sont appelés
+                <strong>"Semeurs de Grâce"</strong>. Ils participent activement
+                à la moisson spirituelle.
+              </p>
+              <div class="bg-light p-3 rounded mb-4">
+                <p class="mb-2">
+                  <i class="fas fa-seedling text-primary me-2"></i>
+                  <strong>Promesse biblique :</strong>
+                </p>
+                <p class="mb-0">
+                  "Et Dieu peut vous combler de toutes sortes de grâces, afin
+                  que, possédant toujours en toutes choses de quoi satisfaire à
+                  tous vos besoins, vous ayez encore en abondance pour toute
+                  bonne œuvre."
+                </p>
+                <small class="text-muted">2 Corinthiens 9:8</small>
+              </div>
+              <a href="#donate-now" class="btn btn-primary btn-lg w-100">
+                <i class="fas fa-heart me-2"></i>Devenir un Semeur de Grâce
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Projets en Cours -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div
+          class="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.2s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-uppercase text-primary">Nos Projets</h4>
+          <h1 class="display-5 mb-3">Vos dons financent ces projets</h1>
+          <p class="lead">
+            Chaque contribution nous rapproche de la réalisation de ces
+            objectifs
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Projet 1 -->
+          <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-card bg-white rounded shadow-sm h-100 p-4">
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary rounded-circle p-3 me-3">
+                  <i class="fas fa-microphone-alt fa-2x text-white"></i>
+                </div>
+                <h4 class="mb-0">Équipement du lieu de culte</h4>
+              </div>
+              <p class="mb-4">
+                Amélioration du système audio, éclairage et sièges pour mieux
+                servir la communauté.
+              </p>
+              <div class="progress mb-3" style="height: 10px">
+                <div class="progress-bar bg-success" style="width: 65%"></div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>65% financé</span>
+                <strong>3 250 000 FCFA / 5 000 000 FCFA</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 2 -->
+          <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="project-card bg-white rounded shadow-sm h-100 p-4">
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary rounded-circle p-3 me-3">
+                  <i class="fas fa-child fa-2x text-white"></i>
+                </div>
+                <h4 class="mb-0">Culte des enfants</h4>
+              </div>
+              <p class="mb-4">
+                Relancer le programme spécial pour les enfants avec matériel
+                pédagogique et animateurs formés.
+              </p>
+              <div class="progress mb-3" style="height: 10px">
+                <div class="progress-bar bg-info" style="width: 40%"></div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>40% financé</span>
+                <strong>800 000 FCFA / 2 000 000 FCFA</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 3 -->
+          <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="project-card bg-white rounded shadow-sm h-100 p-4">
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary rounded-circle p-3 me-3">
+                  <i class="fas fa-home fa-2x text-white"></i>
+                </div>
+                <h4 class="mb-0">Groupe de maison à Owendo</h4>
+              </div>
+              <p class="mb-4">
+                Création d'un nouveau groupe "Grâce Plus Excellente" à Owendo
+                avec équipement de base.
+              </p>
+              <div class="progress mb-3" style="height: 10px">
+                <div class="progress-bar bg-warning" style="width: 25%"></div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>25% financé</span>
+                <strong>250 000 FCFA / 1 000 000 FCFA</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 4 -->
+          <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="project-card bg-white rounded shadow-sm h-100 p-4">
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary rounded-circle p-3 me-3">
+                  <i class="fas fa-id-card fa-2x text-white"></i>
+                </div>
+                <h4 class="mb-0">Cartes des membres</h4>
+              </div>
+              <p class="mb-4">
+                Création de cartes d'identification pour tous les membres
+                réguliers de l'église.
+              </p>
+              <div class="progress mb-3" style="height: 10px">
+                <div class="progress-bar bg-primary" style="width: 80%"></div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>80% financé</span>
+                <strong>400 000 FCFA / 500 000 FCFA</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 5 -->
+          <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="project-card bg-white rounded shadow-sm h-100 p-4">
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary rounded-circle p-3 me-3">
+                  <i class="fas fa-globe fa-2x text-white"></i>
+                </div>
+                <h4 class="mb-0">Site internet et réseaux sociaux</h4>
+              </div>
+              <p class="mb-4">
+                Développement et maintenance du site web officiel et des
+                plateformes sociales.
+              </p>
+              <div class="progress mb-3" style="height: 10px">
+                <div class="progress-bar bg-success" style="width: 90%"></div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>90% financé</span>
+                <strong>900 000 FCFA / 1 000 000 FCFA</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 6 -->
+          <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="project-card bg-white rounded shadow-sm h-100 p-4">
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary rounded-circle p-3 me-3">
+                  <i class="fas fa-hands fa-2x text-white"></i>
+                </div>
+                <h4 class="mb-0">Actions sociales - Éclats de Grâce</h4>
+              </div>
+              <p class="mb-4">
+                Soutien aux familles dans le besoin, orphelinats, et actions
+                communautaires.
+              </p>
+              <div class="progress mb-3" style="height: 10px">
+                <div class="progress-bar bg-info" style="width: 50%"></div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>50% financé</span>
+                <strong>750 000 FCFA / 1 500 000 FCFA</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Faire un Don -->
+    <div class="container-fluid bg-light py-5" id="donate-now">
+      <div class="container py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="p-4 p-lg-5 bg-white rounded shadow-sm">
+              <h3 class="mb-4">Faire un Don</h3>
+              <form id="donation-form">
+                <div class="mb-3">
+                  <label for="donation-amount" class="form-label"
+                    >Montant du don (FCFA)</label
+                  >
+                  <div class="btn-group w-100" role="group">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="amount"
+                      id="amount1"
+                      value="5000"
+                      autocomplete="off"
+                    />
+                    <label class="btn btn-outline-primary" for="amount1"
+                      >5 000</label
+                    >
+
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="amount"
+                      id="amount2"
+                      value="10000"
+                      autocomplete="off"
+                    />
+                    <label class="btn btn-outline-primary" for="amount2"
+                      >10 000</label
+                    >
+
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="amount"
+                      id="amount3"
+                      value="25000"
+                      autocomplete="off"
+                    />
+                    <label class="btn btn-outline-primary" for="amount3"
+                      >25 000</label
+                    >
+
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="amount"
+                      id="amount4"
+                      value="50000"
+                      autocomplete="off"
+                    />
+                    <label class="btn btn-outline-primary" for="amount4"
+                      >50 000</label
+                    >
+
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="amount"
+                      id="amount5"
+                      value="100000"
+                      autocomplete="off"
+                    />
+                    <label class="btn btn-outline-primary" for="amount5"
+                      >100 000</label
+                    >
+                  </div>
+                  <div class="mt-3">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="custom-amount"
+                      placeholder="Autre montant"
+                      min="1000"
+                      step="1000"
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="project-select" class="form-label"
+                    >Projet spécifique (optionnel)</label
+                  >
+                  <select class="form-select" id="project-select">
+                    <option value="general">
+                      Dons généraux - Ministère des Finances
+                    </option>
+                    <option value="equipment">
+                      Équipement du lieu de culte
+                    </option>
+                    <option value="children">Culte des enfants</option>
+                    <option value="owendo">Groupe de maison à Owendo</option>
+                    <option value="cards">Cartes des membres</option>
+                    <option value="website">Site internet</option>
+                    <option value="social">Actions sociales</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="donor-name" class="form-label"
+                    >Votre nom (optionnel)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="donor-name"
+                    placeholder="Nom et prénom"
+                  />
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="recurring-donation"
+                  />
+                  <label class="form-check-label" for="recurring-donation"
+                    >Devenir Semeur de Grâce (don mensuel)</label
+                  >
+                </div>
+
+                <div class="alert alert-info">
+                  <i class="fas fa-info-circle me-2"></i>
+                  <strong>Important :</strong> Après soumission, vous recevrez
+                  les détails de paiement par email/SMS.
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg w-100">
+                  <i class="fas fa-gift me-2"></i>Faire mon don
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+            <h4 class="text-uppercase text-primary mb-3">Modes de Paiement</h4>
+            <h1 class="display-5 mb-4">Comment faire votre don ?</h1>
+
+            <div class="giving-method p-4 bg-white rounded shadow-sm mb-4">
+              <h5>
+                <i class="fas fa-mobile-alt text-primary me-2"></i>Mobile Money
+              </h5>
+              <p class="mb-2">
+                <strong>Airtel Money :</strong> +241 76 44 91 57
+              </p>
+              <p class="mb-0"><strong>Moov Money :</strong> +241 65 93 92 61</p>
+            </div>
+
+            <div class="giving-method p-4 bg-white rounded shadow-sm mb-4">
+              <h5>
+                <i class="fas fa-university text-primary me-2"></i>Virement
+                Bancaire
+              </h5>
+              <p class="mb-2"><strong>Banque :</strong> BGFIBank Gabon</p>
+              <p class="mb-0">
+                <strong>Compte :</strong> Église Grâce Déployée Libreville
+              </p>
+              <small class="text-muted"
+                >Contactez-nous pour les détails complets du compte</small
+              >
+            </div>
+
+            <div class="giving-method p-4 bg-white rounded shadow-sm">
+              <h5>
+                <i class="fas fa-hand-holding-usd text-primary me-2"></i>Sur
+                Place
+              </h5>
+              <p class="mb-2">Pendant les cultes du dimanche ou aux réunions</p>
+              <p class="mb-0">
+                <strong>Heure des offrandes :</strong> 10H35-10H45 (Culte
+                dominical)
+              </p>
+            </div>
+
+            <div class="mt-4 p-3 bg-primary text-white rounded">
+              <h6 class="mb-2">
+                <i class="fas fa-receipt me-2"></i>Reçus de dons
+              </h6>
+              <p class="mb-0">
+                Des reçus officiels sont émis pour tous les dons, nécessaires
+                pour les déductions fiscales selon la loi gabonaise.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section FAQ -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div
+          class="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.2s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-uppercase text-primary">Questions Fréquentes</h4>
+          <h1 class="display-5 mb-3">Informations sur les dons</h1>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="accordion" id="faqAccordion">
+              <!-- FAQ 1 -->
+              <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                <h2 class="accordion-header" id="faq1">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse1"
+                  >
+                    Comment sont utilisés les dons ?
+                  </button>
+                </h2>
+                <div
+                  id="collapse1"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Les dons sont utilisés exclusivement pour les activités de
+                    l'église : frais de location/entretien des locaux,
+                    équipements, actions sociales (Éclats de Grâce), formation
+                    des membres, et développement des ministères. Un rapport
+                    financier est disponible sur demande.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 2 -->
+              <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                <h2 class="accordion-header" id="faq2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse2"
+                  >
+                    Puis-je donner anonymement ?
+                  </button>
+                </h2>
+                <div
+                  id="collapse2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Oui, vous pouvez donner anonymement. Cependant, pour les
+                    dons supérieurs à 100 000 FCFA, un reçu fiscal est
+                    nécessaire selon la loi gabonaise. Les petits dons peuvent
+                    rester anonymes.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 3 -->
+              <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                <h2 class="accordion-header" id="faq3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse3"
+                  >
+                    Qu'est-ce qu'un "Semeur de Grâce" ?
+                  </button>
+                </h2>
+                <div
+                  id="collapse3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Les "Semeurs de Grâce" sont nos partenaires financiers
+                    réguliers qui s'engagent à donner mensuellement. Ils
+                    reçoivent des rapports détaillés sur l'impact de leurs dons
+                    et sont mentionnés dans nos prières hebdomadaires.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ 4 -->
+              <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                <h2 class="accordion-header" id="faq4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse4"
+                  >
+                    Comment obtenir un reçu fiscal ?
+                  </button>
+                </h2>
+                <div
+                  id="collapse4"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Pour les dons par mobile money ou virement, un reçu
+                    électronique vous est envoyé automatiquement. Pour les dons
+                    en espèce, présentez-vous au ministère des finances après le
+                    culte. Les reçus sont émis le dernier dimanche de chaque
+                    mois.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="footer-item">
+              <h3 class="text-white mb-4">
+                <img
+                  src="./img/Grace_D-1.jpeg"
+                  alt="Logo Grâce Déployée"
+                  class="rounded-circle me-2"
+                  style="width: 50px; height: 50px"
+                />
+                Grâce Déployée
+              </h3>
+              <p class="mb-3">
+                Église locale de l'Église Universelle dont Jésus-Christ est la
+                tête et le chef (Éphésiens 1:20,22-23).
+              </p>
+              <div class="d-flex mt-4">
+                <a
+                  class="btn btn-secondary btn-md-square rounded-circle me-2"
+                  href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  class="btn btn-secondary btn-md-square rounded-circle me-2"
+                  href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  class="btn btn-secondary btn-md-square rounded-circle me-2"
+                  href="#"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a
+                  class="btn btn-secondary btn-md-square rounded-circle"
+                  href="#"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-item">
+              <h4 class="text-white mb-4">Liens rapides</h4>
+              <a href="index.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>Accueil</a
+              >
+              <a href="about.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>À propos</a
+              >
+              <a href="sermons.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>Sermons</a
+              >
+              <a href="evenements.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>Événements</a
+              >
+              <a href="groupes.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>Groupes de maison</a
+              >
+              <a href="blog.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>Blog</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-item">
+              <h4 class="text-white mb-4">Contactez-nous</h4>
+              <p>
+                <i class="fa fa-map-marker-alt me-3"></i>Citié Parlementaire,
+                Libreville, Gabon
+              </p>
+              <p><i class="fas fa-user me-3"></i>Angondjé Amissa</p>
+              <p><i class="fas fa-phone me-3"></i>+241 76 44 91 57</p>
+              <p><i class="fas fa-phone me-3"></i>+241 65 93 92 61</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>gracedeployeegabon@gmail.com
+              </p>
+              <a href="contact.html" class="btn btn-primary mt-3"
+                >Nous écrire</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <p class="text-white mb-0">
+              © <span id="current-year"></span> Église Grâce Déployée. Tous
+              droits réservés.
+            </p>
+            <p class="text-white">
+              "Que la Grâce du Seigneur Jésus soit avec vous !"
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-secondary btn-lg-square rounded-circle back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+      // Mise à jour de l'année courante
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+
+      // Gestion du formulaire de dons
+      document
+        .getElementById("donation-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const amount = document.querySelector('input[name="amount"]:checked')
+            ? document.querySelector('input[name="amount"]:checked').value
+            : document.getElementById("custom-amount").value;
+
+          const project = document.getElementById("project-select").value;
+          const name = document.getElementById("donor-name").value || "Anonyme";
+          const recurring =
+            document.getElementById("recurring-donation").checked;
+
+          if (!amount || amount < 1000) {
+            alert("Veuillez sélectionner un montant d'au moins 1 000 FCFA");
+            return;
+          }
+
+          // Simulation d'envoi
+          const projectNames = {
+            general: "Dons généraux",
+            equipment: "Équipement du lieu de culte",
+            children: "Culte des enfants",
+            owendo: "Groupe de maison à Owendo",
+            cards: "Cartes des membres",
+            website: "Site internet",
+            social: "Actions sociales",
+          };
+
+          const message = `
+Merci ${name} pour votre générosité !
+
+Détails de votre don :
+• Montant : ${parseInt(amount).toLocaleString()} FCFA
+• Projet : ${projectNames[project]}
+• Type : ${recurring ? "Don mensuel (Semeur de Grâce)" : "Don unique"}
+
+Instructions :
+1. Effectuez un transfert vers l'un des numéros suivants :
+   - Airtel Money : +241 76 44 91 57
+   - Moov Money : +241 65 93 92 61
+
+2. Indiquez dans le message : "Don ${project}"
+
+3. Envoyez un SMS au +241 76 44 91 57 pour confirmation
+
+Que Dieu vous bénisse abondamment !`;
+
+          alert(message);
+
+          // Réinitialiser le formulaire
+          this.reset();
+          document.getElementById("custom-amount").value = "";
+        });
+
+      // Désélectionner les boutons radio si montant personnalisé
+      document
+        .getElementById("custom-amount")
+        .addEventListener("input", function () {
+          document.querySelectorAll('input[name="amount"]').forEach((radio) => {
+            radio.checked = false;
+          });
+        });
+
+      // Initialiser les animations
+      new WOW().init();
+    </script>
+  </body>
+</html>
