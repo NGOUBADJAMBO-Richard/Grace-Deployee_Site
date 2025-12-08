@@ -1,272 +1,738 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-    <title>Blog/Actualités - Grâce Déployée</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blog & Actualités - Église Grâce Déployée Libreville</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      name="description"
+      content="Découvrez les dernières actualités, événements, témoignages et réflexions spirituelles de l'Église Grâce Déployée de Libreville."
+    />
+    <meta
+      name="keywords"
+      content="actualités église Gabon, blog chrétien, événements spirituels, témoignages, réflexions bibliques, Grâce Déployée Libreville"
+    />
 
     <!-- Favicons -->
-    <link href="./img/Grace_D-1.jpeg" rel="icon">
-    <link href="./img/Grace_D-1.jpeg" rel="apple-touch-icon">
-
+    <link href="./img/Grace_D-1.jpeg" rel="icon" />
+    <link href="./img/Grace_D-1.jpeg" rel="apple-touch-icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Chargement...</span>
+      </div>
     </div>
     <!-- Spinner End -->
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                <h1 class="text-primary"><img src="./img/Grace_D-1.jpeg" alt="Logo" class="rounded-circle"></h1>
-
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">A propos</a>
-                    <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
-                    <a href="blog.html" class="nav-item nav-link active">Blog/Actualités</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Sermons et<br>prédications</a>
-                            <a href="product.html" class="dropdown-item">Evènements</a>
-                            <a href="team.html" class="dropdown-item">Ministères et<br>Groupes</a>
-                            <!-- <a href="testimonial.html" class="dropdown-item">Dons</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a> -->
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <!-- <div class="d-none d-xl-flex me-3">
-                        <div class="d-flex flex-column pe-3 border-end border-primary">
-                            <span class="text-body">Grâce Déployée</span>
-                            <a href="tel:+24176449157"><span class="text-primary">+241 764-49157</span></a>
-                            <a href="tel:+24165939262"><span class="text-primary">/+241 659-39262</span></a>
-                        </div>
-                    </div> -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="index.html" class="navbar-brand p-0">
+          <h1 class="text-primary">
+            <img
+              src="./img/Grace_D-1.jpeg"
+              alt="Logo Grâce Déployée"
+              class="rounded-circle"
+              style="width: 60px; height: 60px"
+            />
+          </h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Accueil</a>
+            <a href="about.html" class="nav-item nav-link">À propos</a>
+            <a href="sermons.html" class="nav-item nav-link">Sermons</a>
+            <a href="evenements.html" class="nav-item nav-link">Événements</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Ministères</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="ministeres.html#parole" class="dropdown-item"
+                  >Ministère de la Parole</a
+                >
+                <a href="ministeres.html#louange" class="dropdown-item"
+                  >Ministère de la Louange</a
+                >
+                <a href="ministeres.html#portiers" class="dropdown-item"
+                  >Portiers de la Grâce</a
+                >
+                <a href="ministeres.html#eclats" class="dropdown-item"
+                  >Éclats de Grâce</a
+                >
+                <a href="ministeres.html#finances" class="dropdown-item"
+                  >Ministère des Finances</a
+                >
+                <a href="ministeres.html#multimedia" class="dropdown-item"
+                  >Multimédia & Communication</a
+                >
+                <a href="ministeres.html#sentinelles" class="dropdown-item"
+                  >Sentinelles de Grâce</a
+                >
+                <a href="ministeres.html#moissonneurs" class="dropdown-item"
+                  >Moissonneurs de Grâce</a
+                >
+              </div>
             </div>
-        </nav>
-
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Blog/Actualités</h4>
-                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-primary"> Blog/Actualités</li>
-                </ol>
-            </div>
+            <a href="groupes.html" class="nav-item nav-link">Groupes</a>
+            <a href="blog.html" class="nav-item nav-link active">Blog</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a
+              href="dons.html"
+              class="nav-item nav-link btn btn-primary text-white ms-2"
+              >Donner</a
+            >
+          </div>
         </div>
-        <!-- Header End -->
+      </nav>
+
+      <!-- Header Start -->
+      <div
+        class="container-fluid bg-primary py-5"
+        style="
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url('./img/blog-bg.jpg') center/cover no-repeat;
+        "
+      >
+        <div class="container text-center py-5" style="max-width: 900px">
+          <h4
+            class="text-white display-4 mb-4 wow fadeInDown"
+            data-wow-delay="0.1s"
+          >
+            Blog & Actualités
+          </h4>
+          <ol
+            class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown"
+            data-wow-delay="0.3s"
+          >
+            <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+            <li class="breadcrumb-item active text-white">Blog & Actualités</li>
+          </ol>
+        </div>
+      </div>
+      <!-- Header End -->
     </div>
     <!-- Navbar & Hero End -->
 
-    <!-- Modal Search Start -->
-    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex align-items-center">
-                    <div class="input-group w-75 mx-auto d-flex">
-                        <input type="search" class="form-control p-3" placeholder="keywords"
-                            aria-describedby="search-icon-1">
-                        <span id="search-icon-1" class="input-group-text btn border p-3"><i
-                                class="fa fa-search text-white"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Search End -->
-
-    <!-- Blog Start -->
+    <!-- Section Blog Principal -->
     <div class="container-fluid blog py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-uppercase text-primary">Notre Blog</h4>
-                <h1 class="display-3 text-capitalize mb-3">Dernières Actualités & Événements</h1>
+      <div class="container py-5">
+        <div class="row">
+          <!-- Articles Principaux -->
+          <div class="col-lg-8">
+            <div
+              class="text-center mx-auto pb-5 wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <h4 class="text-uppercase text-primary">
+                Nos Dernières Actualités
+              </h4>
+              <h1 class="display-3 text-capitalize mb-3">
+                La Vie de Notre Communauté
+              </h1>
+              <p class="lead">
+                Découvrez les événements, témoignages et réflexions qui animent
+                notre église
+              </p>
             </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="./img/Séminaire combattez pour vos familles.jpeg"
-                                class="img-fluid rounded-top w-100" alt="">
-                            <!-- <div class="blog-date px-4 py-2"><i class="fa fa-calendar-alt me-1"></i> 10 au 13 Octobre 2024</div> -->
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <a href="./sermons/COMBATTEZ POUR VOS FAMILLES.pdf" class="h4 d-inline-block mb-3">Séminaire
-                                Exousia 2024 : Combattez pour vos
-                                familles</a>
-                            <p>Ce séminaire vise à renforcer l’unité familiale et à offrir des outils pour préserver les
-                                valeurs et la foi au sein de la cellule familiale.</p>
-                            <!-- <a href="#" class="fw-bold text-secondary">Lire la suite <i
-                                    class="fa fa-angle-right"></i></a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="./img/Grace_D-1.jpeg" class="img-fluid rounded-top w-100" alt="">
-                            <!-- <div class="blog-date px-4 py-2"><i class="fa fa-calendar-alt me-1"></i> 10 au 13 Octobre 2024</div> -->
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <a href="./sermons/FicheMoisson2_240618_204811_241030_202750.pdf" class="h4 d-inline-block mb-3">ÉGLISE GRÂCE DÉPLOYÉE : Fiche de Moisson.</a>
-                            <p>Programmes qui concerne le fonctionnement interne de l'église..</p>
-                            <!-- <a href="#" class="fw-bold text-secondary">Lire la suite <i
-                                    class="fa fa-angle-right"></i></a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/Grace_D-2.jpeg" class="img-fluid rounded-top w-100" alt="">
-                            <!-- <div class="blog-date px-4 py-2"><i class="fa fa-calendar-alt me-1"></i> 19 Févr 2025</div> -->
-                        </div>
-                        <div class="blog-content rounded-bottom p-4">
-                            <a href="./sermons/ÉGLISE GRÂCE DÉPLOYÉE  Organisation du service.pdf"
-                                class="h4 d-inline-block mb-3">ÉGLISE GRÂCE DÉPLOYÉE : Organisation du service</a>
-                            <p>Une fiche de renseignement afin de mieux organiser le service de l'église grâce déployée.
-                            </p>
-                            <!-- <a href="#" class="fw-bold text-secondary">Lire la suite <i
-                                    class="fa fa-angle-right"></i></a> -->
-                        </div>
-                    </div>
-                </div>
 
+            <!-- Barre de Recherche et Filtres -->
+            <div class="row mb-5">
+              <div class="col-md-6 mb-3">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Rechercher un article..."
+                  />
+                  <button class="btn btn-primary" type="button">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex flex-wrap gap-2">
+                  <a
+                    href="#"
+                    class="btn btn-outline-primary btn-sm rounded-pill"
+                    >Tous</a
+                  >
+                  <a
+                    href="#"
+                    class="btn btn-outline-primary btn-sm rounded-pill"
+                    >Événements</a
+                  >
+                  <a
+                    href="#"
+                    class="btn btn-outline-primary btn-sm rounded-pill"
+                    >Témoignages</a
+                  >
+                  <a
+                    href="#"
+                    class="btn btn-outline-primary btn-sm rounded-pill"
+                    >Réflexions</a
+                  >
+                  <a
+                    href="#"
+                    class="btn btn-outline-primary btn-sm rounded-pill"
+                    >Annonces</a
+                  >
+                </div>
+              </div>
             </div>
+
+            <!-- Articles -->
+            <div class="row g-4">
+              <!-- Article 1 -->
+              <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
+                <article
+                  class="blog-article card border-0 shadow-sm overflow-hidden"
+                >
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img
+                        src="./img/Séminaire combattez pour vos familles.jpeg"
+                        class="img-fluid h-100 w-100"
+                        style="object-fit: cover"
+                        alt="Séminaire Exousia 2024"
+                      />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-4">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-3"
+                        >
+                          <span class="badge bg-primary rounded-pill"
+                            >Événement</span
+                          >
+                          <small class="text-muted"
+                            ><i class="far fa-calendar-alt me-1"></i> Octobre
+                            2024</small
+                          >
+                        </div>
+                        <h3 class="card-title h4 mb-3">
+                          <a
+                            href="./sermons/COMBATTEZ POUR VOS FAMILLES.pdf"
+                            class="text-decoration-none"
+                          >
+                            Séminaire Exousia 2024 : "Combattez pour vos
+                            familles"
+                          </a>
+                        </h3>
+                        <p class="card-text mb-3">
+                          Un séminaire puissant pour renforcer l'unité familiale
+                          et offrir des outils spirituels pour préserver les
+                          valeurs chrétiennes au sein de la cellule familiale.
+                        </p>
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <a
+                            href="./sermons/COMBATTEZ POUR VOS FAMILLES.pdf"
+                            class="btn btn-outline-primary btn-sm"
+                          >
+                            <i class="fas fa-file-pdf me-1"></i>Télécharger le
+                            programme
+                          </a>
+                          <small class="text-muted">Durée : 4 jours</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Article 2 -->
+              <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                <article
+                  class="blog-article card border-0 shadow-sm overflow-hidden"
+                >
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img
+                        src="./img/Grace_D-1.jpeg"
+                        class="img-fluid h-100 w-100"
+                        style="object-fit: cover"
+                        alt="Organisation de l'église"
+                      />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-4">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-3"
+                        >
+                          <span class="badge bg-info rounded-pill"
+                            >Organisation</span
+                          >
+                          <small class="text-muted"
+                            ><i class="far fa-calendar-alt me-1"></i> Novembre
+                            2024</small
+                          >
+                        </div>
+                        <h3 class="card-title h4 mb-3">
+                          <a
+                            href="./sermons/FicheMoisson2_240618_204811_241030_202750.pdf"
+                            class="text-decoration-none"
+                          >
+                            Nouvelle Organisation : Fiche de Moisson 2024
+                          </a>
+                        </h3>
+                        <p class="card-text mb-3">
+                          Découvrez notre nouvelle structure organisationnelle
+                          pour mieux servir notre communauté et atteindre les
+                          âmes pour Christ. Téléchargez notre fiche de moisson
+                          complète.
+                        </p>
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <a
+                            href="./sermons/FicheMoisson2_240618_204811_241030_202750.pdf"
+                            class="btn btn-outline-primary btn-sm"
+                          >
+                            <i class="fas fa-file-pdf me-1"></i>Voir la fiche
+                          </a>
+                          <small class="text-muted">Document officiel</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Article 3 -->
+              <div class="col-12 wow fadeInUp" data-wow-delay="0.4s">
+                <article
+                  class="blog-article card border-0 shadow-sm overflow-hidden"
+                >
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img
+                        src="./img/Grace_D-2.jpeg"
+                        class="img-fluid h-100 w-100"
+                        style="object-fit: cover"
+                        alt="Service dans l'église"
+                      />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-4">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-3"
+                        >
+                          <span class="badge bg-success rounded-pill"
+                            >Service</span
+                          >
+                          <small class="text-muted"
+                            ><i class="far fa-calendar-alt me-1"></i> Décembre
+                            2024</small
+                          >
+                        </div>
+                        <h3 class="card-title h4 mb-3">
+                          <a
+                            href="./sermons/ÉGLISE GRÂCE DÉPLOYÉE  Organisation du service.pdf"
+                            class="text-decoration-none"
+                          >
+                            Guide d'Organisation du Service
+                          </a>
+                        </h3>
+                        <p class="card-text mb-3">
+                          Comment mieux organiser le service dans notre église ?
+                          Découvrez notre guide complet pour une meilleure
+                          coordination des différents ministères et services.
+                        </p>
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <a
+                            href="./sermons/ÉGLISE GRÂCE DÉPLOYÉE  Organisation du service.pdf"
+                            class="btn btn-outline-primary btn-sm"
+                          >
+                            <i class="fas fa-file-pdf me-1"></i>Consulter le
+                            guide
+                          </a>
+                          <small class="text-muted">Guide pratique</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Article 4 (Exemple) -->
+              <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
+                <article
+                  class="blog-article card border-0 shadow-sm overflow-hidden"
+                >
+                  <div class="row g-0">
+                    <div class="col-md-5">
+                      <img
+                        src="./img/priere-communaute.jpg"
+                        class="img-fluid h-100 w-100"
+                        style="object-fit: cover"
+                        alt="Semaine de prière"
+                      />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body p-4">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-3"
+                        >
+                          <span class="badge bg-warning rounded-pill"
+                            >Prière</span
+                          >
+                          <small class="text-muted"
+                            ><i class="far fa-calendar-alt me-1"></i> Janvier
+                            2025</small
+                          >
+                        </div>
+                        <h3 class="card-title h4 mb-3">
+                          <a href="#" class="text-decoration-none">
+                            Semaine de Prière de Janvier 2025
+                          </a>
+                        </h3>
+                        <p class="card-text mb-3">
+                          Rejoignez-nous pour notre semaine de prière mensuelle.
+                          Un temps de jeûne et de prière pour consacrer le
+                          nouveau mois au Seigneur (Nombres 10:10).
+                        </p>
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <a
+                            href="evenements.html"
+                            class="btn btn-outline-primary btn-sm"
+                          >
+                            <i class="fas fa-calendar-alt me-1"></i>Voir le
+                            calendrier
+                          </a>
+                          <small class="text-muted">Prochain événement</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Navigation des articles" class="mt-5">
+              <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1">Précédent</a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Suivant</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Sidebar -->
+          <div class="col-lg-4">
+            <div class="sidebar-sticky">
+              <!-- Catégories -->
+              <div
+                class="sidebar-widget mb-5 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <h4 class="mb-4">Catégories</h4>
+                <div class="list-group list-group-flush">
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                  >
+                    Événements
+                    <span class="badge bg-primary rounded-pill">12</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                  >
+                    Témoignages
+                    <span class="badge bg-primary rounded-pill">8</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                  >
+                    Réflexions bibliques
+                    <span class="badge bg-primary rounded-pill">15</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                  >
+                    Annonces importantes
+                    <span class="badge bg-primary rounded-pill">6</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                  >
+                    Vie des ministères
+                    <span class="badge bg-primary rounded-pill">10</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Derniers Événements -->
+              <div
+                class="sidebar-widget mb-5 wow fadeInUp"
+                data-wow-delay="0.4s"
+              >
+                <h4 class="mb-4">Prochains Événements</h4>
+                <div class="list-group list-group-flush">
+                  <a
+                    href="evenements.html"
+                    class="list-group-item list-group-item-action"
+                  >
+                    <div class="d-flex w-100 justify-content-between">
+                      <h6 class="mb-1">Culte Dominical</h6>
+                      <small>Chaque dimanche</small>
+                    </div>
+                    <p class="mb-1 small">À partir de 9h00</p>
+                  </a>
+                  <a
+                    href="evenements.html"
+                    class="list-group-item list-group-item-action"
+                  >
+                    <div class="d-flex w-100 justify-content-between">
+                      <h6 class="mb-1">Temps de Grâce</h6>
+                      <small>Mardi et vendredi</small>
+                    </div>
+                    <p class="mb-1 small">5h00 - 6h00 en ligne</p>
+                  </a>
+                  <a
+                    href="evenements.html"
+                    class="list-group-item list-group-item-action"
+                  >
+                    <div class="d-flex w-100 justify-content-between">
+                      <h6 class="mb-1">Réunion des Portiers</h6>
+                      <small>Samedi</small>
+                    </div>
+                    <p class="mb-1 small">14h - 16h</p>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Newsletter -->
+              <div
+                class="sidebar-widget mb-5 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body p-4">
+                    <h4 class="mb-3">Restez informé</h4>
+                    <p class="small mb-3">
+                      Inscrivez-vous à notre newsletter pour recevoir les
+                      dernières actualités
+                    </p>
+                    <form id="newsletter-form">
+                      <div class="mb-3">
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="Votre email"
+                          required
+                        />
+                      </div>
+                      <button type="submit" class="btn btn-primary w-100">
+                        S'abonner
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Archives -->
+              <div class="sidebar-widget wow fadeInUp" data-wow-delay="0.6s">
+                <h4 class="mb-4">Archives</h4>
+                <div class="list-group list-group-flush">
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Janvier 2025</a
+                  >
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Décembre 2024</a
+                  >
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Novembre 2024</a
+                  >
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Octobre 2024</a
+                  >
+                  <a href="#" class="list-group-item list-group-item-action"
+                    >Septembre 2024</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- Blog End -->
-
 
     <!-- Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-        <div class="container py-5">
-            <div class="row g-5 mb-5 align-items-center">
-                <div class="col-lg-5">
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
-                                class="fab fa-twitter"></i></a>
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
-                                class="fab fa-instagram"></i></a>
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="footer-item">
+              <h3 class="text-white mb-4">
+                <img
+                  src="./img/Grace_D-1.jpeg"
+                  alt="Logo Grâce Déployée"
+                  class="rounded-circle me-2"
+                  style="width: 50px; height: 50px"
+                />
+                Grâce Déployée
+              </h3>
+              <p class="mb-3">
+                Église locale de l'Église Universelle dont Jésus-Christ est la
+                tête et le chef (Éphésiens 1:20,22-23).
+              </p>
+              <div class="d-flex mt-4">
+                <a
+                  class="btn btn-secondary btn-md-square rounded-circle me-2"
+                  href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  class="btn btn-secondary btn-md-square rounded-circle me-2"
+                  href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  class="btn btn-secondary btn-md-square rounded-circle me-2"
+                  href="#"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a
+                  class="btn btn-secondary btn-md-square rounded-circle"
+                  href="#"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </div>
             </div>
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <div class="footer-item">
-                            <h3 class="text-white mb-4">
-                                <img src="./img/Grace_D-1.jpeg" alt="Logo" class="rounded-pill"
-                                    style="width: 50px; height: 50px;">Grâce Déployée
-                            </h3>
-                            <p class="mb-3">Une communauté de foi dédiée à la transformation des vies par l'amour, le
-                                service et la lumière de l'Évangile.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="text-white mb-4">À propos de nous</h4>
-                        <a href="about.html"><i class="fas fa-angle-right me-2"></i>A propos</a>
-                        <a href="blog.html"><i class="fas fa-angle-right me-2"></i>Blog/Actualités</a>
-                        <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Distributeurs d'eau</a>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i> Refroidisseurs d'eau</a> -->
-                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contactez-nous</a>
-                        <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Termes & Conditions</a> -->
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="text-white mb-4">Contact Info</h4>
-                        <a href="#"><i class="fa fa-map-marker-alt me-2"></i> AGONDJE AMISSA Cité Parlementaire</a>
-                        <a href="mailto:gracedeployee@gmail.com"><i class="fas fa-envelope me-2"></i>
-                            gracedeployee@gmail.com</a>
-                        <a href="tel:+24176449157"><i class="fas fa-phone me-2"></i> +241 764-49157</a>
-                        <a href="tel:+24165939262" class="mb-3"><i class="fas fa-print me-2"></i> +241 659-39262</a>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-item">
+              <h4 class="text-white mb-4">Liens rapides</h4>
+              <a href="index.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>Accueil</a
+              >
+              <a href="about.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>À propos</a
+              >
+              <a href="ministeres.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>Ministères</a
+              >
+              <a href="groupes.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>Groupes de maison</a
+              >
+              <a href="evenements.html" class="d-block mb-2"
+                ><i class="fas fa-angle-right me-2"></i>Événements</a
+              >
+              <a href="blog.html" class="d-block mb-2 active"
+                ><i class="fas fa-angle-right me-2"></i>Blog</a
+              >
             </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-item">
+              <h4 class="text-white mb-4">Contactez-nous</h4>
+              <p>
+                <i class="fa fa-map-marker-alt me-3"></i>Citié Parlementaire,
+                Libreville, Gabon
+              </p>
+              <p><i class="fas fa-user me-3"></i>Angondjé Amissa</p>
+              <p><i class="fas fa-phone me-3"></i>+241 76 44 91 57</p>
+              <p><i class="fas fa-phone me-3"></i>+241 65 93 92 61</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>gracedeployeegabon@gmail.com
+              </p>
+              <a href="contact.html" class="btn btn-primary mt-3"
+                >Nous écrire</a
+              >
+            </div>
+          </div>
         </div>
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <p class="text-white mb-0">
+              © <span id="current-year"></span> Église Grâce Déployée. Tous
+              droits réservés.
+            </p>
+            <p class="text-white">
+              "Que la Grâce du Seigneur Jésus soit avec vous !"
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Footer End -->
 
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-        <div class="container">
-            <div class="row g-4 align-items-center">
-                <div class="col-md-6 text-center text-md-start mb-md-0">
-                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
-                                class="fas fa-copyright text-light me-2"></i>Grâce Déployée</a>, Tous droits
-                        réservés.</span>
-                </div>
-                <div class="col-md-6 text-center text-md-end text-body">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Créer par <a class="border-bottom text-white" href="https://mgn-richard.vercel.app/">M.G.N A.
-                        Richard</a>
-                    <!-- Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a> -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Copyright End -->
-
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
-
+    <a
+      href="#"
+      class="btn btn-secondary btn-lg-square rounded-circle back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -277,9 +743,28 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
 
+    <script>
+      // Mise à jour de l'année courante
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+
+      // Gestion du formulaire newsletter
+      document
+        .getElementById("newsletter-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const email = this.querySelector('input[type="email"]').value;
+          if (email) {
+            alert("Merci pour votre inscription à notre newsletter !");
+            this.reset();
+          }
+        });
+
+      // Initialisation des animations
+      new WOW().init();
+    </script>
+  </body>
 </html>
